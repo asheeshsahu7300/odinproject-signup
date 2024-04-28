@@ -1,0 +1,158 @@
+.split {
+    height: 100vh;
+    width: 40%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .split1 {
+    height: 100vh;
+    width: 60%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-image:url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(227, 252, 244);
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+    height:200px;
+   margin-bottom: 20px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(36, 33, 33));
+    box-sizing: border-box;
+    box-shadow: 8px 8px 14px #0c0a0a;
+    text-align: center;
+  }
+
+  .centered1 {
+    position: fixed;
+    top: 53%;
+    left:76%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+    height: 230px;
+    margin-left: 13px;
+    padding-left:2em ;
+    padding-top: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 8px  8px  14px #888888;
+    text-align:left;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 100px;
+    margin-top: 10px;
+    margin-left:80px;
+   
+   
+    
+  }
+  .logo {
+   font-size: 100px;
+  font-family:'Courier';
+  margin-bottom: auto;
+  color: white;
+  
+ 
+  
+  }
+  .text{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+  }
+ .inp{
+  font-size: 12px;
+ }
+
+/* Default border for all inputs */
+input {
+  border: 1px solid #E5E7EB;
+}
+
+/* Red border for invalid password inputs */
+input[type="password"]:hover {
+  border: 1px solid red;
+}
+
+/* Blue border and box-shadow for selected input */
+input:hover {
+  border: 1px solid blue;
+  box-shadow: 0 0 0px rgb(13, 13, 229);
+}
+ 
+
+ .button-37 {
+   background-color: #596D48;
+   border: 1px solid #596D48;
+   margin-top: 41%;
+   
+   margin-left: 4%;
+   border-radius: 4px;
+   box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   outline: none;
+   outline: 0;
+   padding: 10px 25px;
+   text-align: center;
+   transform: translateY(0);
+   transition: transform 150ms, box-shadow 150ms;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ .button-37:hover {
+   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+   transform: translateY(-2px);
+ }
+ 
+ @media (min-width: 768px) {
+   .button-37 {
+     padding: 10px 30px;
+   }
+ }
+ .login{
+  color:#596D48;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+
+ }
+ .p{
+  margin-top: 10px
+ }
